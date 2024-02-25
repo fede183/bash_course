@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo {a, 19}
+echo {1..10}
+echo {10..1}
+echo {a..z}
+echo {1..10..2}

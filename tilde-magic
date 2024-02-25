@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo ~
+echo ~colleague
+echo ~root
+
+echo $PWD
+cd /etc
+echo $OLDPWD
+cd $OLDPWD
+
+cd ~- # cd /etc or cd $OLDPWD
+cd ~- # cd ~
+
+cd ~+ # cd $PWD
